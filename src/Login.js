@@ -18,7 +18,7 @@ function Login() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    const URL = "http://localhost:5000/login";
+    const URL = "https://martiann.com/login";
     const raw = JSON.stringify({
       email,
       pass: password,

@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     if (token) {
-      const URL = "http://localhost:5000/explore";
+      const URL = "https://martiann.com/explore";
 
       var myHeaders = new Headers();
       myHeaders.append("Authorization", `Bearer ${token}`);

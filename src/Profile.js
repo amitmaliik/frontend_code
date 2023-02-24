@@ -18,7 +18,7 @@ export default function Profile() {
       mode: "cors",
     };
 
-    fetch("http://localhost:5000/logout", requestOptions)
+    fetch("https://martiann.com/logout", requestOptions)
       .then((res) => res.json())
       .then((res) => {
         localStorage.clear();
@@ -39,7 +39,7 @@ export default function Profile() {
         mode: "cors",
       };
 
-      const URL = "http://localhost:5000/profile";
+      const URL = "https://martiann.com/profile";
       fetch(URL, requestOptions)
         .then((res) => res.json())
         .then((res) => {

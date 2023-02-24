@@ -20,7 +20,7 @@ function Explore({ recoData }) {
         mode: "cors",
       };
 
-      const URL = "http://localhost:5000/profile";
+      const URL = "https://martiann.com/profile";
       fetch(URL, requestOptions)
         .then((res) => res.json())
         .then((res) => {

@@ -28,7 +28,7 @@ function SwipeCards({ recoData }) {
         },
       };
 
-      fetch("http://localhost:5000/swipe-card", reqObj)
+      fetch("https://martiann.com/swipe-card", reqObj)
         .then((res) => res.json())
         .then((res) => {
           console.log(res, "res of swipe cards");

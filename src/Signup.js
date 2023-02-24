@@ -26,7 +26,7 @@ function Signup() {
 
     console.log({ email, password });
     // setIsLoading(true);
-    const URL = "http://localhost:5000/register";
+    const URL = "https://martiann.com/register";
     const raw = JSON.stringify({
       email,
       pass: password,
